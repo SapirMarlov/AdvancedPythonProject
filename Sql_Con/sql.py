@@ -1,3 +1,5 @@
+from abc import update_abstractmethods
+
 import pymysql
 
 
@@ -104,19 +106,39 @@ class sql:
         except pymysql.MySQLError as e:
             print(f"Error adding record: {e}")
 
-    def update_col_by_id(self , table_name ,  col_name_update , col_name_where , update_val , id ):
+    def update_col_by_id(self ,  col_name_update , col_name_where , update_val , id_list ):
         #not working
+        """
+           Update specific column values in the table based on a list of IDs.
+           """
+        self.connect_my_db(self.db_name)
         try:
-            self.connect_my_db(self.db_name)
-            for i in id :
-                update_query = f"UPDATE {table_name} SET {col_name_update} = '{update_val}'"
-                self.cursor.execute(update_query)
-                self.connection.commit()
-                print(f"Rows affected: {self.cursor.rowcount}")
-                print(f"UPDATED FOR ID {i}: \n{col_name_update} updated to {update_val} for ID : {i}  in {table_name} successfully.")
-        except pymysql.MySQLError as e:
-            print(f"Error updating status: {e}")
+            # וודא ש-id_list הוא רשימה
+            if not isinstance(id_list, list):
+                id_list = [id_list]
 
+            # בניית שאילתת SQL דינמית עם placeholders
+            query = f"UPDATE {self.table_name} SET {col_name_update}=%s WHERE {col_name_where}=%s"
+
+            # בצע עדכון עבור כל ID ברשימה
+            for record_id in id_list:
+                print(f"Executing query: {query} with values: {update_val}, {record_id}")
+                self.cursor.execute(query, (str(update_val),record_id))
+                print(f"Rows affected for ID {record_id}: {self.cursor.rowcount}")
+
+            # שמור שינויים
+            self.connection.commit()
+            print(f"Total rows affected: {self.cursor.rowcount}")
+
+        except Exception as e:
+            print(f"Error: {e}")
+
+        finally:
+            # סגירת הקורסור והחיבור
+            if self.cursor:
+                self.cursor.close()
+            if self.connection:
+                self.connection.close()
 
 def main(tableName , df_vals , table_col_name):
     SQL_OBJ = sql(password="newpassword") # creare modlet sql
@@ -127,7 +149,9 @@ def main(tableName , df_vals , table_col_name):
     SQL_OBJ.add_value_to_table(tableName ,df_vals , df_vals.columns) # add values in dataframe -- look how
 
     if (tableName == 'teachers'):
-        SQL_OBJ.update_col_by_id(table_name=tableName , col_name_update='Expertise',col_name_where='TeacherID' , update_val=str('Math') ,id=[1])
+        SQL_OBJ.update_col_by_id(col_name_update='Expertise',col_name_where='TeacherID' , update_val="Chemistry" ,id_list=[1,3])
+        print(df_vals)
+        #print(df_vals)
     print('-'*180)
 
 
