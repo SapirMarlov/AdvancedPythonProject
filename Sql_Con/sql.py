@@ -119,7 +119,7 @@ class sql:
 
 
 def main(tableName , df_vals , table_col_name):
-    SQL_OBJ = sql() # creare modlet sql
+    SQL_OBJ = sql(password="newpassword") # creare modlet sql
     SQL_OBJ.create_db('my_database_for_my_project')  # create db with name
     print("     ±±±")
     SQL_OBJ.create_table(tableName, table_col_name ) # create table with name and column names -- look how
@@ -132,7 +132,7 @@ def main(tableName , df_vals , table_col_name):
 
 
 import pandas as pd
-path = r'/Users/shryqb/PycharmProjects/python_project_final/Sql_Con/learning_center_project_data.xlsx'
+path = r'/Users/shryqb/PycharmProjects/AdvancedPythonProject/Sql_Con/learning_center_project_data.xlsx'
 data_students = pd.read_excel(path, sheet_name='Students')
 df_course = pd.read_excel(path, sheet_name='Courses')
 df_waitList = pd.read_excel(path, sheet_name='Waitlist')
