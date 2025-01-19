@@ -1,31 +1,51 @@
-# מחלקת מורה (Teacher) - תורשת מ-User
-from User import User
+from typing import List
+from Student import Student
+from User import User , UserRole
 
 
 class Teacher(User):
-    def __init__(self, name: str, user_id: int, courses: List[str]):
-        super().__init__(name, user_id, role="Teacher")
-        self.courses = courses
-        self.students = []
+    def __init__(self, name: str,age:int, user_id: int, courses: List[int], students: List[Student]):
+        super().__init__(name,age, user_id, role=UserRole.TEACHER)
+        self.courses = courses # id of courses
+        self.students = students if students else []
 
+    ####################### Start OF GETTERS AND SETTERS #############################################################
+
+    # גטר עבור courses
+    @property
+    def courses(self):
+        return self._courses
+
+    # סטר עבור courses
+    @courses.setter
+    def courses(self, courses: List[int]):
+        if not all(isinstance(course, int) for course in courses):
+            raise ValueError("Courses must be a list of integers representing course IDs.")
+        self._courses = courses
+
+    # גטר עבור students
+    @property
+    def students(self):
+        return self._students
+
+    # סטר עבור students
+    @students.setter
+    def students(self, students: List[Student]):
+        if not all(isinstance(student, Student) for student in students):
+            raise ValueError("Students must be a list of Student objects.")
+        self._students = students
+
+    ####################### END OF GETTERS AND SETTERS #############################################################
+
+    # מתודת login
     def login(self):
         print(f"Teacher {self.name} logged in.")
 
-    def create_user(self):
-        print(f"Teacher {self.name} is creating a new user.")
+    ####################### Start OF STR METHOD #############################################################
 
-    def update_user_info(self):
-        print(f"Teacher {self.name} is updating user information.")
-
-    def assign_grades(self, student: Student, grade: int):
-        student.add_grade(grade)
-        print(f"Teacher {self.name} assigned grade {grade} to {student.name}.")
-
-    def report_class_issues(self):
-        print(f"Teacher {self.name} is reporting issues in the class.")
-
-    def manage_attendance(self, student: Student, status: str):
-        print(f"Teacher {self.name} recorded {student.name}'s attendance as {status}.")
-
-    def update_course_material(self, course: str):
-        print(f"Teacher {self.name} is updating the material for the {course} course.")
+    # __str__: מייצרת תיאור מובן של המורה
+    def __str__(self):
+        user_str = super().__str__()  # פונה ל-__str__ של User
+        courses_str = ", ".join(str(course) for course in self.courses) if self.courses else "No courses assigned"
+        students_str = ", ".join(student.name for student in self.students) if self.students else "No students assigned"
+        return f"Teacher [ {user_str}, Courses: {courses_str}, Students: {students_str} ]"
