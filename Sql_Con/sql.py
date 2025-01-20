@@ -1,5 +1,6 @@
 import pymysql
-
+from sqlalchemy import create_engine
+import json
 
 class sql:
     def __init__(self, host='localhost', user='root', password='newpassword'):
@@ -118,6 +119,45 @@ class sql:
             print(f"Error updating status: {e}")
 
 
+
+    def add_df_to_table(self, table_name, df_vals):
+        """הוסף ערכים מ-DataFrame לטבלה"""
+        try:
+            # יצירת מחרוזת של שמות העמודות
+            columns = ', '.join(df_vals.columns)  # create string of column names
+
+            # לולאה על כל שורה ב-DataFrame
+            for _, row in df_vals.iterrows():  # iterate over each row
+                values = []
+                for col, val in row.items():  # iterate through column and value
+                    # אם הערך None, נכניס ערך SQL מתאים (NULL)
+                    if val is None or val == '':  # also empty strings will be NULL
+                        values.append('NULL')
+                    elif isinstance(val, list):  # אם הערך הוא רשימה
+                        # הפוך רשימה למחרוזת מופרדת בפסיקים
+                        values.append(f"'{','.join(map(str, val))}'")
+                    elif isinstance(val, dict):  # אם הערך הוא מילון
+                        # הפוך מילון למחרוזת JSON
+                        values.append(f"'{json.dumps(val)}'")
+                    else:
+                        values.append(f"'{str(val)}'")  # wrap value in quotes for SQL compatibility
+
+                # יצירת מחרוזת ערכים
+                values_str = ', '.join(values)  # create string of values from list
+
+                # יצירת שאילתת SQL
+                insert_query = f'INSERT INTO {table_name} ({columns}) VALUES ({values_str})'  # insert query
+
+                # ביצוע השאילתא
+                self.cursor.execute(insert_query)
+
+            # Commit to apply changes
+            self.connection.commit()
+            print(f"Records added to {table_name} successfully.")
+        except pymysql.MySQLError as e:
+            print(f"Error in {table_name}\n adding records from DataFrame: {e}")
+
+
 def main(tableName , df_vals , table_col_name):
     SQL_OBJ = sql(password="newpassword") # creare modlet sql
     SQL_OBJ.create_db('my_database_for_my_project')  # create db with name
@@ -131,6 +171,19 @@ def main(tableName , df_vals , table_col_name):
     print('-'*180)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+'''
 import pandas as pd
 path = r'/Users/shryqb/PycharmProjects/AdvancedPythonProject/Sql_Con/learning_center_project_data.xlsx'
 data_students = pd.read_excel(path, sheet_name='Students')
@@ -160,3 +213,4 @@ main("teachers", df_teachers, teacher_table_columns)
 
 
 
+'''

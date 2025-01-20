@@ -7,7 +7,7 @@ class Teacher(User):
     def __init__(self, name: str,age:int, user_id: int, courses: List[int], students: List[Student]):
         super().__init__(name,age, user_id, role=UserRole.TEACHER)
         self.courses = courses # id of courses
-        self.students = students if students else []
+        self.students = students if students else [] # id of students
 
     ####################### Start OF GETTERS AND SETTERS #############################################################
 
@@ -47,5 +47,5 @@ class Teacher(User):
     def __str__(self):
         user_str = super().__str__()  # פונה ל-__str__ של User
         courses_str = ", ".join(str(course) for course in self.courses) if self.courses else "No courses assigned"
-        students_str = ", ".join(student.name for student in self.students) if self.students else "No students assigned"
+        students_str = ", ".join(str(student) for student in self.students) if self.students else "No students assigned"
         return f"Teacher [ {user_str}, Courses: {courses_str}, Students: {students_str} ]"

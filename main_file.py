@@ -1,3 +1,4 @@
+from ManagementSystem import ManagementSystem
 from Student import Student
 from Course import Course
 from WaitQueue import WaitQueue
@@ -7,7 +8,21 @@ from Parent import Parent
 from Task import Task ,TaskStatus
 from Teacher import Teacher
 
+from AdvancedPythonProject.Sql_Con.sql import sql
+
+import pandas as pd
+
 def main():
+    systemMenegement = ManagementSystem()
+    #list for objects
+    student_list = []
+    teacher_list = []
+    manager_list = []
+    parent_list = []
+    course_list = []
+    task_list = []
+    wait_queue_list = []
+    employee_list = []
 
     # יצירת אובייקטים של סטודנטים
     Student_Mor = Student(name="Mor Levi",age=20 ,user_id=1, schedule=["Mathematics", "Physics"], grades={1: 85, 2: 90})
@@ -17,9 +32,9 @@ def main():
     Student_Roni = Student(name="Roni Bar",age=19, user_id=5, schedule=["Computer Science", "Chemistry"], grades={5: 95, 3: 87})
 
     # יצירת אובייקטים של מורים (Teacher)
-    Teacher_Smith = Teacher(name="Smith", age=25, user_id=12, courses=[1], students=[Student_Adi, Student_Tal])
-    Teacher_Brown = Teacher(name="Brown", age=31, user_id=13, courses=[2, 4], students=[Student_Roni, Student_Oren])
-    Teacher_Bonn = Teacher(name="Bonn", age=27, user_id=14, courses=[3, 5], students=[Student_Tal, Student_Adi ,Student_Mor])
+    Teacher_Smith = Teacher(name="Smith", age=25, user_id=12, courses=[1], students=[Student_Adi , Student_Mor])
+    Teacher_Brown = Teacher(name="Brown", age=31, user_id=13, courses=[2, 4], students=[Student_Tal , Student_Tal, Student_Roni])
+    Teacher_Bonn = Teacher(name="Bonn", age=27, user_id=14, courses=[3, 5], students=[Student_Adi,Student_Oren,Student_Roni,Student_Tal])
 
     # יצירת אובייקטים של קורסים עם idים בין 1 ל-5
     Course_Math = Course(course_id=1, name="Mathematics", teacher=Teacher_Smith, students=[Student_Mor , Student_Tal , Student_Adi])
@@ -29,10 +44,10 @@ def main():
     Course_ComputerScience = Course(course_id=5, name="Computer Science", teacher=Teacher_Bonn, students=[Student_Adi,Student_Tal,Student_Roni,Student_Mor])
 
     # יצירת אובייקטים של WaitQueue עבור כל קורס
-    WaitQueue_Math = WaitQueue(course=Course_Math , student_in_list=[])
-    WaitQueue_Physics = WaitQueue(course=Course_Physics , student_in_list=[])
-    WaitQueue_Chemistry = WaitQueue(course=Course_Chemistry, student_in_list=[])
-    WaitQueue_Biology = WaitQueue(course=Course_Biology, student_in_list=[])
+    WaitQueue_Math = WaitQueue(course=Course_Math , student_in_list=[Student_Adi])
+    WaitQueue_Physics = WaitQueue(course=Course_Physics , student_in_list=[Student_Tal])
+    WaitQueue_Chemistry = WaitQueue(course=Course_Chemistry, student_in_list=[Student_Mor])
+    WaitQueue_Biology = WaitQueue(course=Course_Biology, student_in_list=[Student_Oren])
     WaitQueue_ComputerScience = WaitQueue(course=Course_ComputerScience, student_in_list=[])
 
     # יצירת אובייקטים של משימות (Task)
@@ -96,5 +111,98 @@ def main():
 
     print(Teacher_Smith.__str__())
     print(Teacher_Brown.__str__())
+    sql_ = sql()
+    sql_.create_db("university_db")
+    sql_.db_name = "university_db"
+    dictionary_all = {
+        'Course': "_courseId INT AUTO_INCREMENT PRIMARY KEY,_name VARCHAR(100) NOT NULL,_teacher VARCHAR(2000) NOT NULL,_students VARCHAR(2000)",
+
+        'Employee': "_user_id INT AUTO_INCREMENT PRIMARY KEY,_name VARCHAR(100) NOT NULL,_age INT NOT NULL,_role TEXT NOT NULL,_tasks TEXT",
+
+        'Manager': "_user_id INT AUTO_INCREMENT PRIMARY KEY,_name VARCHAR(100) NOT NULL,_age INT NOT NULL,_role TEXT NOT NULL,_task_for_employee VARCHAR(2222),_income INT NOT NULL,_outcome INT NOT NULL",
+
+        'Parent': "_user_id INT AUTO_INCREMENT PRIMARY KEY,_name VARCHAR(100) NOT NULL,_age INT NOT NULL,_role TEXT NOT NULL,_child_name VARCHAR(100) NOT NULL,_child_id INT NOT NULL,_registration_status TEXT ",
+
+        'Student': "_user_id INT AUTO_INCREMENT PRIMARY KEY,_name VARCHAR(100) NOT NULL,_age INT NOT NULL,_role TEXT ,_schedule TEXT,_grades TEXT",
+
+        'Teacher': "_user_id INT AUTO_INCREMENT PRIMARY KEY,_name VARCHAR(100) NOT NULL,_age INT NOT NULL,_role TEXT NOT NULL,_courses TEXT,_students TEXT",
+
+        'Task': "_task_id INT AUTO_INCREMENT PRIMARY KEY,_description VARCHAR(255) NOT NULL,_status VARCHAR(50) DEFAULT 'NOT_COMPLETED'",
+
+        'WaitQueue': "_course VARCHAR(200), _students_in_waitlist VARCHAR(200), PRIMARY KEY (_course, _students_in_waitlist)"
+    }
+    for key,val in dictionary_all.items():
+        sql_.create_table(key, val)
+
+
+    # הוספה של אובייקטים לרשימות המתאימות כמילון
+    # סטודנטים
+    student_list.append(Student_Mor.__dict__)
+    student_list.append(Student_Oren.__dict__)
+    student_list.append(Student_Adi.__dict__)
+    student_list.append(Student_Tal.__dict__)
+    student_list.append(Student_Roni.__dict__)
+
+    # מורים
+    teacher_list.append(Teacher_Smith.__dict__)
+    teacher_list.append(Teacher_Brown.__dict__)
+    teacher_list.append(Teacher_Bonn.__dict__)
+
+    # קורסים
+    course_list.append(Course_Math.__dict__)
+    course_list.append(Course_Physics.__dict__)
+    course_list.append(Course_Chemistry.__dict__)
+    course_list.append(Course_Biology.__dict__)
+    course_list.append(Course_ComputerScience.__dict__)
+
+    # תורי המתנה
+    wait_queue_list.append(WaitQueue_Math.__dict__)
+    wait_queue_list.append(WaitQueue_Physics.__dict__)
+    wait_queue_list.append(WaitQueue_Chemistry.__dict__)
+    wait_queue_list.append(WaitQueue_Biology.__dict__)
+    wait_queue_list.append(WaitQueue_ComputerScience.__dict__)
+
+    # משימות
+    task_list.append(Task_Task1.__dict__)
+    task_list.append(Task_Task2.__dict__)
+    task_list.append(Task_Task3.__dict__)
+    task_list.append(Task_Task4.__dict__)
+    task_list.append(Task_Task5.__dict__)
+
+    # עובדים
+    employee_list.append(Employee_Jack.__dict__)
+    employee_list.append(Employee_Maya.__dict__)
+
+    # מנהלים
+    manager_list.append(Manager_John.__dict__)
+
+    # הורים
+    parent_list.append(Parent_Alice.__dict__)
+    parent_list.append(Parent_Bob.__dict__)
+
+    df_student = pd.DataFrame(student_list)
+    df_teacher = pd.DataFrame(teacher_list)
+    df_course = pd.DataFrame(course_list)
+    df_wait_queue = pd.DataFrame(wait_queue_list)
+    df_task = pd.DataFrame(task_list)
+    df_employee = pd.DataFrame(employee_list)
+    df_manager = pd.DataFrame(manager_list)
+    df_parent = pd.DataFrame(parent_list)
+
+    all_df_in_school = [df_student,df_teacher,df_course,df_wait_queue,df_task,df_employee,df_manager,df_parent]
+    tableName =        ['Student' , 'Teacher', 'Course', 'WaitQueue', 'Task', 'Employee', 'Manager', 'Parent']
+    #sql_.add_df_to_table('Student', df_student)
+
+    for i,df_item in enumerate(all_df_in_school):
+        table_name = tableName[i]
+        sql_.add_df_to_table(table_name, df_item)
+
+
+    print(df_wait_queue.columns)
+
+
+
+
+
 if __name__ == "__main__":
     main()
