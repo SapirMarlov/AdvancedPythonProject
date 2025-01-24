@@ -41,6 +41,11 @@ class General_Worker(Employee):
                 "tasks_list must be a dictionary where keys are strings and values are instances of TaskStatus.")
 
     ################################################################################################################################
+    def change_task_status_of_task(self,task, new_task_status):
+        pass
+    def problem_report(self):
+        pass
+    ################################################################################################################################
 
     # __str__ method
     def __str__(self):

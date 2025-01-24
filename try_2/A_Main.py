@@ -7,6 +7,7 @@ from Task import Task , TaskStatus
 from Manager import Manager
 from Payment import Payment
 from Employee import Employee, Seniority
+from Queue_wait import Queue_wait
 
 from Person import Person , State
 
@@ -21,12 +22,23 @@ Students_avi = Students('Avi', 4, 22, "0526738541", stu_state, {5:95, 2:88}, Reg
 Students_david = Students('David', 5, 24, "0526789524", stu_state, {1: 91, 7: 84}, Registered_Status.UNREGISTERED)
 Students_ronit = Students('Ronit', 6, 25, "0526892345", stu_state, {5: 83, 4: 90}, Registered_Status.REGISTERED)
 Students_sara = Students('Sara', 7, 19, "0526958794", stu_state, {4: 75, 5: 89}, Registered_Status.UNREGISTERED)
+#student in queue
+Students_or_in_queue = Students('Or', 55550, 24, "0527788277", stu_state, {1: 100, 7: 56}, Registered_Status.UNREGISTERED)
+Students_ori_in_queue = Students('Ori', 55551, 25, "0523092900", stu_state, {5: 55, 4: 55}, Registered_Status.REGISTERED)
+Students_mosh_in_queue = Students('Mosh', 55552, 19, "0522918377", stu_state, {4: 80, 5: 0 , 6:100 }, Registered_Status.REGISTERED)
 
-course_math = Course('Math' , 1 , [Students_avi,Students_miki,Students_noa])
-course_bio = Course('Bio' , 2 , [Students_miki,Students_ron])
-course_english = Course('English' , 3 , [Students_david,Students_sara,Students_ronit,Students_noa])
-course_economics = Course('Economics' , 4 , [Students_ronit,Students_david,Students_avi,Students_miki,Students_noa])
-course_law = Course('law' , 5 , [Students_ron,Students_avi,Students_miki,Students_noa])
+course_size = 10
+course_math = Course('Math' , 1 ,course_size, [Students_avi,Students_miki,Students_noa])
+course_bio = Course('Bio' , 2 , course_size,[Students_miki,Students_ron])
+course_english = Course('English' , 3 , course_size, [Students_david,Students_sara,Students_ronit,Students_noa])
+course_economics = Course('Economics' , 4 , course_size, [Students_ronit,Students_david,Students_avi,Students_miki,Students_noa])
+course_law = Course('law' , 5 , course_size, [Students_ron,Students_avi,Students_miki,Students_noa])
+
+queue_math = Queue_wait([Students_or_in_queue,Students_ori_in_queue],id=99990,course_of_queue=course_math)
+queue_bio = Queue_wait([Students_mosh_in_queue,Students_ori_in_queue],course_bio,id=99991)
+queue_english = Queue_wait([Students_or_in_queue,Students_ori_in_queue,Students_mosh_in_queue.id],course_english,id=99992)
+queue_economics = Queue_wait([Students_or_in_queue,Students_ori_in_queue],course_economics,id=99993)
+queue_law = Queue_wait([Students_or_in_queue,Students_avi,Students_miki],course_law,id=99994)
 
 teacher_state = State.st5
 teacher_ben = Teacher('Ben',41,24,"0524534566",teacher_state,4500,Seniority.MASTER,course_list=[course_bio,course_english],student_list=[Students_noa , Students_miki])
@@ -72,7 +84,7 @@ teachers_list = pd.DataFrame([teacher_ben.__dict__, teacher_sara.__dict__, teach
 general_workers_list = pd.DataFrame([generalEmployee_don.__dict__, generalEmployee_ron.__dict__, generalEmployee_noa.__dict__, generalEmployee_avi.__dict__, generalEmployee_maya.__dict__])
 managers_list = pd.DataFrame([manager_avi.__dict__])
 parents_list = pd.DataFrame([Parent_mimi.__dict__, Parent_ronit.__dict__])
-
+queue_wait_list = pd.DataFrame([queue_bio.__dict__, queue_law.__dict__, queue_math.__dict__, queue_english.__dict__,queue_economics.__dict__])
 
 
 
@@ -80,8 +92,10 @@ parents_list = pd.DataFrame([Parent_mimi.__dict__, Parent_ronit.__dict__])
 sql_ = sql.sql()
 sql_.create_db("university_dataBase_data")
 sql_.db_name = "university_dataBase_data"
+
+#חשוב: אסור שיהיה רווח בשם של הטבלאות !!!!!!!!!
 dictionary_all = {
-    'Course': "_course_id INT AUTO_INCREMENT PRIMARY KEY,_name VARCHAR(100) NOT NULL,_student_list TEXT",
+    'Course': "_course_id INT AUTO_INCREMENT PRIMARY KEY,_course_size INT,_name VARCHAR(100) NOT NULL,_student_list TEXT",
 
     'general_worker': "_id INT AUTO_INCREMENT PRIMARY KEY,_name VARCHAR(100) NOT NULL,_age INT NOT NULL,_phone_number VARCHAR(10),_status TEXT ,_salary INT ,_seniority TEXT ,_tasks_list TEXT",
 
@@ -93,13 +107,15 @@ dictionary_all = {
 
     'Teacher': "_id INT AUTO_INCREMENT PRIMARY KEY,_name VARCHAR(100) NOT NULL,_age INT NOT NULL,_phone_number VARCHAR(15),_status TEXT,_salary INT,_seniority TEXT,_course_list TEXT,_student_list TEXT",
 
+    'Wait_Queue': "_id INT AUTO_INCREMENT PRIMARY KEY,_course_of_queue TEXT,_queue TEXT"
+
 }
 for key,val in dictionary_all.items():
     sql_.create_table(key, val)
 
 
-all_df_in_school = [students_list,teachers_list,courses_list,general_workers_list , managers_list , parents_list]
-tableName =        ['Student' , 'Teacher', 'Course', 'general_worker' , 'Manager' , 'Parent' ]
+all_df_in_school = [students_list,teachers_list,courses_list,general_workers_list , managers_list , parents_list,queue_wait_list ]
+tableName =        ['Student' , 'Teacher', 'Course', 'general_worker' , 'Manager' , 'Parent', 'Wait_Queue']
 
 for i, df_item in enumerate(all_df_in_school):
     table_name = tableName[i]
@@ -108,8 +124,8 @@ for i, df_item in enumerate(all_df_in_school):
 
 student_add_meni = Students('Meni',8,19 , "0524565766",stu_state,{1:88,3:99,5:94},Registered_Status.REGISTERED)
 student_add_toni = Students('Toni',9,19, "0524019726",stu_state,{1:70,3:88,5:100},Registered_Status.REGISTERED)
-course_add_python = Course('Python',6,[Students_miki,Students_ron,Students_avi,Students_noa,student_add_toni])
-course_add_java = Course('Java',7,[Students_miki,Students_ron,Students_avi,Students_noa,student_add_toni])
+course_add_python = Course('Python',6,course_size,[Students_miki,Students_ron,Students_avi,Students_noa,student_add_toni])
+course_add_java = Course('Java',7,course_size,[Students_miki,Students_ron,Students_avi,Students_noa,student_add_toni])
 
 df_students_add = pd.DataFrame([student_add_toni.__dict__, student_add_meni.__dict__])
 df_course_add = pd.DataFrame([course_add_python.__dict__, course_add_java.__dict__])
@@ -120,3 +136,4 @@ sql_.add_df_to_table(table_name='Course',df_vals=df_course_add)
 
 sql_.update_col_by_id(table_name='general_worker',col_name_update='_salary',col_name_where='_id',update_val=8898,id=11)
 sql_.del_col_by_id(table_name='general_worker',col_name_where='_id',id=15)
+

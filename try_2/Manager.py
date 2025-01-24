@@ -54,6 +54,19 @@ class Manager(Employee):
             raise ValueError("teacher_list must be a list.")
 
     ################################################################################################################################
+    def assign_task_to_general_employee(self, general_employee):
+        pass
+    def create_teacher(self):
+        pass
+    def create_student(self):
+        pass
+    def create_parent(self):
+        pass
+    def create_general_employee(self):
+        pass
+    def create_course(self):
+        pass
+    ################################################################################################################################
 
     # __str__ method
     def __str__(self):

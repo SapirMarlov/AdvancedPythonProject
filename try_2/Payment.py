@@ -22,6 +22,9 @@ class Payment:
         if not isinstance(value, (int, float)):
             raise ValueError("Outcome must be a number (int or float).")
         self._outcome = value
-
+########################################################################################################################################
+    def create_pay_report(self):
+        pass
+    ########################################################################################################################################
     def __str__(self):
         return f"Payment(income={self.income}, outcome={self.outcome})"

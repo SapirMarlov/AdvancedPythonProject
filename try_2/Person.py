@@ -42,7 +42,7 @@ class Person(ABC):
         """
         Validates and sets the name.
         """
-        if isinstance(value, str) and len(value) > 2:
+        if isinstance(value, str) and len(value) > 1:
             self._name = value
         else:
             raise ValueError("Name must be a string with more than 2 characters.")
