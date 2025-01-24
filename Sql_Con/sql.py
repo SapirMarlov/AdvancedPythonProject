@@ -109,14 +109,30 @@ class sql:
         #not working
         try:
             self.connect_my_db(self.db_name)
-            for i in id :
-                update_query = f"UPDATE {table_name} SET {col_name_update} = '{update_val}'"
-                self.cursor.execute(update_query)
-                self.connection.commit()
-                print(f"Rows affected: {self.cursor.rowcount}")
-                print(f"UPDATED FOR ID {i}: \n{col_name_update} updated to {update_val} for ID : {i}  in {table_name} successfully.")
+
+            update_query = f"UPDATE {table_name} SET {col_name_update} = '{update_val}' WHERE {col_name_where} = {id}"
+            self.cursor.execute(update_query)
+            self.connection.commit()
+            print(f"Rows affected: {self.cursor.rowcount}")
+            print(f"UPDATED FOR ID {id}: \n{col_name_update} updated to {update_val} for ID : {id}  in {table_name} successfully.")
+
         except pymysql.MySQLError as e:
             print(f"Error updating status: {e}")
+
+    def del_col_by_id(self , table_name  , col_name_where  , id ):
+        #not working
+        try:
+            self.connect_my_db(self.db_name)
+
+            update_query = f"DELETE FROM {table_name} WHERE {col_name_where} = {id}"
+            self.cursor.execute(update_query)
+            self.connection.commit()
+            print(f"Rows affected: {self.cursor.rowcount}")
+            print(f'deleted id : {id} from tabla name : {table_name} successfully')
+
+        except pymysql.MySQLError as e:
+            print(f"Error updating status: {e}")
+
 
 
 

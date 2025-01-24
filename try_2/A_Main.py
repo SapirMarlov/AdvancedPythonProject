@@ -57,9 +57,13 @@ generalEmployee_maya = General_Worker('Maya', 15, 38, "0540022567", general_work
 manager_state = State.st3
 manager_avi = Manager('Avi',21,55,"0501191822",manager_state,16000,Seniority.SENIOR,worker_list=[generalEmployee_avi],teacher_list=[teacher_sara])
 
+
+payment1 = Payment(12000,3000)
+payment2 = Payment(25000,6000)
+
 parent_state = State.st4
-Parent_mimi = Parent('Mimi',31,34,"0554256577",parent_state,childrenList=['emily','moshe'])
-Parent_ronit = Parent('Ronit', 40, 42, "0554786543", parent_state, childrenList=['david', 'sara'])
+Parent_mimi = Parent('Mimi',31,34,"0554256577",parent_state,payment=payment1,childrenList=['emily','moshe'])
+Parent_ronit = Parent('Ronit', 40, 42, "0554786543", parent_state,payment=payment2, childrenList=['david', 'sara'])
 
 
 students_list = pd.DataFrame([Students_noa.__dict__, Students_miki.__dict__, Students_ron.__dict__, Students_avi.__dict__, Students_david.__dict__, Students_ronit.__dict__, Students_sara.__dict__])
@@ -83,7 +87,7 @@ dictionary_all = {
 
     'Manager': "_id INT AUTO_INCREMENT PRIMARY KEY,_name VARCHAR(100) NOT NULL,_age INT NOT NULL,_phone_number VARCHAR(15),_status TEXT,_salary INT NOT NULL,_seniority TEXT,_worker_list TEXT,_teacher_list TEXT",
 
-    'Parent': "_id INT AUTO_INCREMENT PRIMARY KEY,_name VARCHAR(100) NOT NULL,_age INT NOT NULL,_phone_number VARCHAR(15),_status TEXT, _childrenList TEXT",
+    'Parent': "_id INT AUTO_INCREMENT PRIMARY KEY,_name VARCHAR(100) NOT NULL,_age INT NOT NULL,_phone_number VARCHAR(15),_status TEXT,_payment TEXT, _childrenList TEXT",
 
     'Student': "_id INT AUTO_INCREMENT PRIMARY KEY,_name VARCHAR(100) NOT NULL,_age INT NOT NULL,_phone_number VARCHAR(15),_status TEXT,_grade_course TEXT,_registered TEXT",
 
@@ -100,7 +104,19 @@ tableName =        ['Student' , 'Teacher', 'Course', 'general_worker' , 'Manager
 for i, df_item in enumerate(all_df_in_school):
     table_name = tableName[i]
     sql_.add_df_to_table(table_name, df_item)
-'''
-for j,i in enumerate(all_df_in_school):
-    print(tableName[j])
-    print(i.columns)'''
+
+
+student_add_meni = Students('Meni',8,19 , "0524565766",stu_state,{1:88,3:99,5:94},Registered_Status.REGISTERED)
+student_add_toni = Students('Toni',9,19, "0524019726",stu_state,{1:70,3:88,5:100},Registered_Status.REGISTERED)
+course_add_python = Course('Python',6,[Students_miki,Students_ron,Students_avi,Students_noa,student_add_toni])
+course_add_java = Course('Java',7,[Students_miki,Students_ron,Students_avi,Students_noa,student_add_toni])
+
+df_students_add = pd.DataFrame([student_add_toni.__dict__, student_add_meni.__dict__])
+df_course_add = pd.DataFrame([course_add_python.__dict__, course_add_java.__dict__])
+
+
+sql_.add_df_to_table(table_name='Student',df_vals=df_students_add)
+sql_.add_df_to_table(table_name='Course',df_vals=df_course_add)
+
+sql_.update_col_by_id(table_name='general_worker',col_name_update='_salary',col_name_where='_id',update_val=8898,id=11)
+sql_.del_col_by_id(table_name='general_worker',col_name_where='_id',id=15)

@@ -1,7 +1,8 @@
 from Person import Person, State
+from Payment import Payment
 
 class Parent(Person):
-    def __init__(self, name, p_id, age, phone_number, status: State, childrenList: list):
+    def __init__(self, name, p_id, age, phone_number, status: State,payment:Payment, childrenList: list):
         """
         Initializes a Parent object with the provided attributes.
         :param name: The name of the parent.
@@ -13,6 +14,7 @@ class Parent(Person):
         """
         super().__init__(name, p_id, age, phone_number, status)
         self.childrenList = childrenList  # Assign the list of children
+        self.payment = payment # Assign the payment
 
     ################################################################################################################################
 
@@ -30,6 +32,16 @@ class Parent(Person):
             self._childrenList = value
         else:
             raise ValueError("childrenList must be a list of Person instances.")
+
+    @property
+    def payment(self):
+        return self._payment
+
+    @payment.setter
+    def payment(self, value):
+        if not isinstance(value, Payment):
+            raise ValueError("Payment must be an instance of Payment class.")
+        self._payment = value
 
     ################################################################################################################################
 
