@@ -60,8 +60,31 @@ class Students(Person):
 
     ################################################################################################################################
 
-    def show_grade(self):
-        print(self._grade_course.__str__())
+    def show_grade(self,list_courses):
+        #print(f'grade of {self.name} [course_id,grade] - {self._grade_course.__str__()}')
+        for key,val in self._grade_course.items():
+            for course in list_courses:
+                if course._course_id == key:
+                    print(f'Student {self.name} grade in course {course.name} is {val}')
+        return self.grade_course
+    def show_place_in_queue(self,queueList):
+        mon = 0
+        for queue_ in queueList:
+            for stu in queue_.queue:
+                try:
+                    if stu.name == self.name:
+                        print(f"Student {self.name} is at position {queue_.queue.index(stu) + 1} found in queue of {queue_.course_of_queue.name}")
+                        mon+=1
+
+                except Exception as e:
+                    #print(f"Error in show_place_in_queue: {e}")
+                    continue
+        if mon==0:
+            print(f"Student {self.name} not found in queue of {queue_.course_of_queue.name}")
+            return False
+        else:
+            return True
+
 
 
     ################################################################################################################################

@@ -1,3 +1,6 @@
+from Teacher import Teacher
+
+
 class Course:
     def __init__(self, name: str, course_id: int,course_size:int, student_list: list):
         """
@@ -38,7 +41,6 @@ class Course:
             self._course_id = value
         else:
             raise ValueError("Course ID must be a positive integer.")
-
     ################################################################################################################################
 
     # Getter and Setter for student_list

@@ -42,7 +42,19 @@ class General_Worker(Employee):
 
     ################################################################################################################################
     def change_task_status_of_task(self,task, new_task_status):
-        pass
+        if task not in self._tasks_list:
+            print(f"Task '{task}' does not exist in the tasks list.")
+            return False
+        for task_ in self._tasks_list:
+            if task_ == task:
+                print(f' --- task.description : {task_.description} --- ')
+                print(f'before change : {task_.status}')
+                task_.status=new_task_status
+                print(f'after change : {task_.status}')
+                return True
+
+        print(f"Task '{task}' not found.")
+        return False
     def problem_report(self):
         pass
     ################################################################################################################################

@@ -55,6 +55,35 @@ class Teacher(Employee):
 
     ################################################################################################################################
 
+    def show_student_in_course(self):
+        for i in self._student_list:
+            print(i.__str__())
+        pass
+    def assign_student_to_course(self,student):
+        if student not in self._student_list:
+            self._student_list.append(student)
+            print(f"Student {student.name} assigned to courses of teacher {self.name}")
+        else:
+            print(f"Student {student.name} already assigned to courses of teacher {self.name}")
+
+    def assign_grade_to_student(self,student,grade,course):
+        if student not in self._student_list:
+            print(f"Student {student.name} not found in the list of students assigned to teacher {self.name}")
+            return False
+        elif course not in self._course_list:
+            print(f"Course {course} not found in the list of courses assigned to teacher {self.name}")
+            return False
+        else:
+            if course not in self._course_list:
+                student.grade_course[course.course_id] = grade
+            else:
+                student.grade_course[course.course_id]=[student.grade_course[course.course_id],grade]
+            print(f"Grade {grade} assigned to student {student.name} in course {course.name}")
+            return True
+    def problem_report(self):
+        pass
+    ################################################################################################################################
+
     # __str__ method
 
     # __str__ method

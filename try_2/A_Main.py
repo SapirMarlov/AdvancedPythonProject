@@ -13,6 +13,41 @@ from Person import Person , State
 
 from AdvancedPythonProject.Sql_Con import sql
 
+
+def add_data_to_sql():
+    sql_ = sql.sql()
+    sql_.create_db("university_dataBase_data")
+    sql_.db_name = "university_dataBase_data"
+
+    # חשוב: אסור שיהיה רווח בשם של הטבלאות !!!!!!!!!
+    dictionary_all = {
+        'Course': "_course_id INT AUTO_INCREMENT PRIMARY KEY,_course_size INT,_name VARCHAR(100) NOT NULL,_student_list TEXT",
+
+        'general_worker': "_id INT AUTO_INCREMENT PRIMARY KEY,_name VARCHAR(100) NOT NULL,_age INT NOT NULL,_phone_number VARCHAR(10),_status TEXT ,_salary INT ,_seniority TEXT ,_tasks_list TEXT",
+
+        'Manager': "_id INT AUTO_INCREMENT PRIMARY KEY,_name VARCHAR(100) NOT NULL,_age INT NOT NULL,_phone_number VARCHAR(15),_status TEXT,_salary INT NOT NULL,_seniority TEXT,_worker_list TEXT,_teacher_list TEXT",
+
+        'Parent': "_id INT AUTO_INCREMENT PRIMARY KEY,_name VARCHAR(100) NOT NULL,_age INT NOT NULL,_phone_number VARCHAR(15),_status TEXT,_payment TEXT, _childrenList TEXT",
+
+        'Student': "_id INT AUTO_INCREMENT PRIMARY KEY,_name VARCHAR(100) NOT NULL,_age INT NOT NULL,_phone_number VARCHAR(15),_status TEXT,_grade_course TEXT,_registered TEXT",
+
+        'Teacher': "_id INT AUTO_INCREMENT PRIMARY KEY,_name VARCHAR(100) NOT NULL,_age INT NOT NULL,_phone_number VARCHAR(15),_status TEXT,_salary INT,_seniority TEXT,_course_list TEXT,_student_list TEXT",
+
+        'Wait_Queue': "_id INT AUTO_INCREMENT PRIMARY KEY,_course_of_queue TEXT,_queue TEXT"
+
+    }
+    for key, val in dictionary_all.items():
+        sql_.create_table(key, val)
+
+    all_df_in_school = [df_students, df_teachers, df_courses, df_general_employees, df_managers, df_parents, df_queues]
+    tableName = ['Student', 'Teacher', 'Course', 'general_worker', 'Manager', 'Parent', 'Wait_Queue']
+
+    for i, df_item in enumerate(all_df_in_school):
+        table_name = tableName[i]
+        sql_.add_df_to_table(table_name, df_item)
+
+
+
 import pandas as pd
 stu_state = State.st1
 Students_miki = Students('Miki',1,19,"0526573644" , stu_state, {1:88,2:88},Registered_Status.UNREGISTERED )
@@ -67,7 +102,7 @@ generalEmployee_avi = General_Worker('Avi', 14, 45, "0540022566", general_worker
 generalEmployee_maya = General_Worker('Maya', 15, 38, "0540022567", general_worker_state, 7700, seniority=Seniority.EXPERT, tasks_list=[task_report,task_train])
 
 manager_state = State.st3
-manager_avi = Manager('Avi',21,55,"0501191822",manager_state,16000,Seniority.SENIOR,worker_list=[generalEmployee_avi],teacher_list=[teacher_sara])
+manager_avi = Manager('Avi',21,55,"0501191822",manager_state,16000,Seniority.SENIOR,worker_list=[generalEmployee_avi,generalEmployee_maya,generalEmployee_don,generalEmployee_ron,generalEmployee_noa],teacher_list=[teacher_ben,teacher_sara,teacher_lior,teacher_yaron])
 
 
 payment1 = Payment(12000,3000)
@@ -78,17 +113,27 @@ Parent_mimi = Parent('Mimi',31,34,"0554256577",parent_state,payment=payment1,chi
 Parent_ronit = Parent('Ronit', 40, 42, "0554786543", parent_state,payment=payment2, childrenList=['david', 'sara'])
 
 
-students_list = pd.DataFrame([Students_noa.__dict__, Students_miki.__dict__, Students_ron.__dict__, Students_avi.__dict__, Students_david.__dict__, Students_ronit.__dict__, Students_sara.__dict__])
-courses_list = pd.DataFrame([course_math.__dict__, course_bio.__dict__, course_english.__dict__, course_economics.__dict__, course_law.__dict__])
-teachers_list = pd.DataFrame([teacher_ben.__dict__, teacher_sara.__dict__, teacher_lior.__dict__, teacher_yaron.__dict__])
-general_workers_list = pd.DataFrame([generalEmployee_don.__dict__, generalEmployee_ron.__dict__, generalEmployee_noa.__dict__, generalEmployee_avi.__dict__, generalEmployee_maya.__dict__])
-managers_list = pd.DataFrame([manager_avi.__dict__])
-parents_list = pd.DataFrame([Parent_mimi.__dict__, Parent_ronit.__dict__])
-queue_wait_list = pd.DataFrame([queue_bio.__dict__, queue_law.__dict__, queue_math.__dict__, queue_english.__dict__,queue_economics.__dict__])
+# רשימות המכילות אובייקטים בלבד
+list_students = [Students_noa, Students_miki, Students_ron, Students_avi, Students_david, Students_ronit, Students_sara]
+list_courses = [course_math, course_bio, course_english, course_economics, course_law]
+list_teachers = [teacher_ben, teacher_sara, teacher_lior, teacher_yaron]
+list_general_employees = [generalEmployee_don, generalEmployee_ron, generalEmployee_noa, generalEmployee_avi, generalEmployee_maya]
+list_managers = [manager_avi]
+list_parents = [Parent_mimi, Parent_ronit]
+list_queues = [queue_bio, queue_law, queue_math, queue_english, queue_economics]
+
+# יצירת DataFrame מכל רשימה על ידי המרת האובייקטים למילונים
+df_students = pd.DataFrame([student.__dict__ for student in list_students])
+df_courses = pd.DataFrame([course.__dict__ for course in list_courses])
+df_teachers = pd.DataFrame([teacher.__dict__ for teacher in list_teachers])
+df_general_employees = pd.DataFrame([worker.__dict__ for worker in list_general_employees])
+df_managers = pd.DataFrame([manager.__dict__ for manager in list_managers])
+df_parents = pd.DataFrame([parent.__dict__ for parent in list_parents])
+df_queues = pd.DataFrame([queue.__dict__ for queue in list_queues])
 
 
 
-
+'''
 sql_ = sql.sql()
 sql_.create_db("university_dataBase_data")
 sql_.db_name = "university_dataBase_data"
@@ -114,12 +159,13 @@ for key,val in dictionary_all.items():
     sql_.create_table(key, val)
 
 
-all_df_in_school = [students_list,teachers_list,courses_list,general_workers_list , managers_list , parents_list,queue_wait_list ]
+all_df_in_school = [df_students,df_teachers,df_courses,df_general_employees , df_managers , df_parents,df_queues ]
 tableName =        ['Student' , 'Teacher', 'Course', 'general_worker' , 'Manager' , 'Parent', 'Wait_Queue']
 
 for i, df_item in enumerate(all_df_in_school):
     table_name = tableName[i]
     sql_.add_df_to_table(table_name, df_item)
+'''
 
 
 student_add_meni = Students('Meni',8,19 , "0524565766",stu_state,{1:88,3:99,5:94},Registered_Status.REGISTERED)
@@ -131,9 +177,67 @@ df_students_add = pd.DataFrame([student_add_toni.__dict__, student_add_meni.__di
 df_course_add = pd.DataFrame([course_add_python.__dict__, course_add_java.__dict__])
 
 
-sql_.add_df_to_table(table_name='Student',df_vals=df_students_add)
-sql_.add_df_to_table(table_name='Course',df_vals=df_course_add)
+print('-'*177)
 
-sql_.update_col_by_id(table_name='general_worker',col_name_update='_salary',col_name_where='_id',update_val=8898,id=11)
-sql_.del_col_by_id(table_name='general_worker',col_name_where='_id',id=15)
+#                                --------- all methods for manager is working---------
+print('manager method : ')
+manager_avi.manage_queue(queue_list=list_queues)
+manager_avi.assign_teacher_to_course(teacher_yaron,course_bio)
+
+new_course_for_add = Course('Music',44440,course_size,[Students_miki,Students_noa,Students_ron,student_add_toni])
+manager_avi.create_course(new_course_for_add,list_courses)
+
+new_gen_employee_add = General_Worker('GenEmploy',11110,55,"0524563557",general_worker_state,15000,Seniority.MASTER,[task_design,task_file])
+manager_avi.create_general_employee(new_gen_employee_add , list_general_employees)
+
+new_par_add = Parent('mushone' , 999999999 , 45,"0545263777",parent_state,payment2,['moran','fishi'])
+manager_avi.create_parent(new_par_add,list_parents)
+
+student_add = Students('moshir',78787878,23,'0524312455',stu_state,{1:88,2:88,3:99},Registered_Status.REGISTERED)
+manager_avi.create_student(student_add,list_students)
+
+new_teacher_add = Teacher('Moni',919191929,44,"055456377",teacher_state,7600,Seniority.EXPERT,[course_math,course_english],[Students_miki,Students_noa,Students_ron])
+manager_avi.create_teacher(new_teacher_add,list_teachers)
+
+manager_avi.assign_task_to_general_employee(generalEmployee_don,task_manage)
+
+manager_avi.create_report_income_outcome('2020',540000,340000)
+
+#                               --------- all methods for parent is working---------
+print('-'*188)
+print('parent method : ')
+
+Parent_mimi.register_child_to_course_if_course_not_full(course_math,list_courses,list_queues,'Emily',101010,30,"0524635666",stu_state)
+#print(course_math)
+
+Parent_mimi.show_child_info('emily',list_courses)# this method must be with register method
+Parent_mimi.payment_report()
+Parent_mimi.show_place_in_queue('emily',list_queues)
+print('='*100)
+
+
+#                                --------- all methods for student is working---------
+list_students[1].show_place_in_queue(list_queues)
+Students_noa.show_grade(list_courses)
+
+#                                --------- all methods for teacher is working---------
+print('-'*188)
+print('teacher method : ')
+teacher_ben.show_student_in_course()
+teacher_lior.assign_student_to_course(Students_avi)
+teacher_lior.assign_grade_to_student(Students_ron,44,course_math)
+teacher_lior.assign_grade_to_student(Students_ron,99,course_english)
+teacher_lior.problem_report()
+
+print('-'*188)
+print('general employee method : ')
+generalEmployee_don.change_task_status_of_task(task_research,new_task_status=TaskStatus.WAIT)
+
+add_data_
+
+
+
+
+
+
 

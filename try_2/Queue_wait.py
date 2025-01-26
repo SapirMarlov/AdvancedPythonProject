@@ -40,5 +40,4 @@ class Queue_wait():
             raise ValueError("Course must be an instance of Course class.")
 
     def __str__(self):
-        student_names = ', '.join([student.name for student in self.queue])
-        return f"Queue(ID: {self.id}, Course: {self.course_of_queue.name}, Students: {student_names})"
+        return f'Queue [id : {self.id} , course : {self.course_of_queue.name} , number of student in list : {len(self.queue)} ]'
