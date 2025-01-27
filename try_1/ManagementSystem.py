@@ -11,7 +11,25 @@ from Task import Task
 class ManagementSystem:
     def __init__(self):
         self.users = []
+        self.students = []
+        self.teachers = []
+        self.managers = []
+        self.parents = []
+        self.employees = []
+        self.wait_queues = []
         self.courses = []
         self.tasks = []
+
+
+
+
+
+
+
+
+
+
+
+
 
 
