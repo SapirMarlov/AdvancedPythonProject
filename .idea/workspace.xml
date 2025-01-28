@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="efa0c617-caaf-40c1-836b-a0ad87abd178" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/PycharmProjects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdvancedPythonProject.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advenced_python_project_/proj_other_running/Metadata_Country_API_NY.GDP.MKTP.CD_DS2_en_csv_v2_2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advenced_python_project_/proj_other_running/country_data_large.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advenced_python_project_/proj_other_running/decision_tree_IncomeGroup - full dataFrame.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advenced_python_project_/proj_other_running/ex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advenced_python_project_/proj_other_running/new_ob.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advenced_python_project_/proj_other_running/predictions.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advenced_python_project_/proj_other_running/tree of Severity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advenced_python_project_/project_python_XXXXX/Course.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advenced_python_project_/project_python_XXXXX/Employee.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advenced_python_project_/project_python_XXXXX/ManagementSystem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advenced_python_project_/project_python_XXXXX/Manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advenced_python_project_/project_python_XXXXX/Parent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advenced_python_project_/project_python_XXXXX/Student.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advenced_python_project_/project_python_XXXXX/Task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advenced_python_project_/project_python_XXXXX/Teacher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advenced_python_project_/project_python_XXXXX/User.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advenced_python_project_/project_python_XXXXX/WaitQueue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advenced_python_project_/python_project_final/SQL/learning_center_project_data.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advenced_python_project_/python_project_final/SQL/sql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advenced_python_project_/python_project_final/class_description" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advenced_python_project_/python_project_final/del.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advenced_python_project_/python_project_final/description" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advenced_python_project_/python_project_final/logit/Manager_or.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advenced_python_project_/python_project_final/logit/School_system.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advenced_python_project_/עותק של AdvancedPythonProject" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/.idea/PythonProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/haled_projects_practice/homeWork/hw2.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/haled_projects_practice/homeWork/hw2/BonusEmployee.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/haled_projects_practice/homeWork/hw2/Company.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/haled_projects_practice/homeWork/hw2/Employee_Manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/haled_projects_practice/homeWork/hw2/Main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/haled_projects_practice/paractice_7/bank_account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/haled_projects_practice/paractice_7/students_manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/haled_projects_practice/practice_8/employee_class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/haled_projects_practice/practice_8/lambda.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/haled_projects_practice/practice_8/shaprClass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/haled_projects_practice/practice_8/sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/haled_projects_practice/practice_9_db/connect_mySql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/haled_projects_practice/practice_9_db/sakila.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/haled_projects_practice/תכנות מתקדם בפייתון - תרגול 9 - 838050 (1)/MySQL and Python_v2023.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/haled_projects_practice/תכנות מתקדם בפייתון - תרגול 9 - 838050 (1)/Presentation_sql.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/haled_projects_practice/תכנות מתקדם בפייתון - תרגול 9 - 838050 (1)/config.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/haled_projects_practice/תכנות מתקדם בפייתון - תרגול 9 - 838050 (1)/create_data_for_q1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/haled_projects_practice/תכנות מתקדם בפייתון - תרגול 9 - 838050 (1)/create_data_for_q2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/haled_projects_practice/תכנות מתקדם בפייתון - תרגול 9 - 838050 (1)/q1_sol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/haled_projects_practice/תכנות מתקדם בפייתון - תרגול 9 - 838050 (1)/q2_sol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/malik_adv_py/pandas_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/correlation_matrix.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column AccountName.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column AccountObjectId.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column AccountSid.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column AccountUpn.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column ActionGranular.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column ActionGrouped.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column AlertId.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column AlertTitle.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column AntispamDirection.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column ApplicationId.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column ApplicationName.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column Category.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column City.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column CountryCode.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column DetectorId.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column DeviceId.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column DeviceName.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column EmailClusterId.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column EntityType.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column EvidenceRole.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column FileName.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column FolderPath.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column Id.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column IncidentGrade.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column IncidentId.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column IpAddress.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column LastVerdict.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column MitreTechniques.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column NetworkMessageId.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column OAuthApplicationId.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column OSFamily.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column OSVersion.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column OrgId.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column RegistryKey.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column RegistryValueData.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column RegistryValueName.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column ResourceIdName.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column ResourceType.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column Roles.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column Sha256.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column State.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column SuspicionLevel.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column ThreatFamily.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column Timestamp.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column Url.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/counts/value count for column Usage.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/describe.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/dtypes.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/full_df_filled.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/strong_correlations bigger than 0.7.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column AccountName.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column AccountObjectId.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column AccountSid.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column AccountUpn.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column ActionGranular.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column ActionGrouped.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column AlertId.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column AlertTitle.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column AntispamDirection.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column ApplicationId.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column ApplicationName.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column Category.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column City.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column CountryCode.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column DetectorId.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column DeviceId.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column DeviceName.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column EmailClusterId.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column EntityType.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column EvidenceRole.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column FileName.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column FolderPath.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column Id.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column IncidentGrade.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column IncidentId.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column IpAddress.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column LastVerdict.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column MitreTechniques.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column NetworkMessageId.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column OAuthApplicationId.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column OSFamily.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column OSVersion.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column OrgId.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column RegistryKey.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column RegistryValueData.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column RegistryValueName.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column ResourceIdName.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column ResourceType.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column Roles.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column Sha256.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column State.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column SuspicionLevel.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column ThreatFamily.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column Timestamp.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column Url.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/filles_csv/view percent/view percent in column Usage.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/P2/sklearn_impute.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/mai_pro/Crash_Reporting_-_Drivers_Data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/mai_pro/df_pedicr.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/mai_pro/full_test_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/mai_pro/full_train_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/mai_pro/pic_criterion_entropy train numbers 132533.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/mai_pro/test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/mai_pro/train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/mai_pro/מאי_פרויקט_גמר_מסודר.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/Codes 2/Code for dividing data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/Codes 2/Data Cleaning - Pre processing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/Codes 2/Data Understanding.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/Codes 2/Merge Sheets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/copy_of_פרויקט_גמר_מסודר.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/csv file/new_df_merged.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/csv file/עותק של BulletinSearch.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/csv file/עותק של BulletinSearch2001-2008.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/df_pedicr.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/file/data_description.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/file/outputData_pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/file/type data frame.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/final code/Gradient Boosting_confusion_matrix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/final code/Random Forest_confusion_matrix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/final code/Random Forest_decision_trees.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/final code/SVM_confusion_matrix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/final code/SVM_svm_boundary.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/final code/decision_tree_Severity - full dataFrame.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/final code/decision_tree_Severity_full_dataFrame.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/final code/excel_value_non_null.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/final code/impute.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/final code/obs file for pred.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/final code/predictions.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/final code/return_impute.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/final code/save_obs_in_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/final code/tree of Severity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/plots.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/plots/3d_plots/3d_scatter_with_target_Severity.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/plots/3d_plots/readMe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/plots/heatmap_graph/missing_values_heatmap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/plots/plot_correletion/plot_correletion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/plots/plot_hist/Severity Level Distribution.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/plots/plot_hist/histogram_1 - Date Posted.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/plots/plot_hist/histogram_10 - Impact.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/plots/plot_hist/histogram_10 - Impact2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/plots/plot_hist/histogram_11 - Severity.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/plots/plot_hist/histogram_12 - Supersedes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/plots/plot_hist/histogram_13 - Reboot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/plots/plot_hist/histogram_14 - CVEs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/plots/plot_hist/histogram_15 - Date&#10;Posted.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/plots/plot_hist/histogram_15 - mm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/plots/plot_hist/histogram_16 - Bulletin&#10;ID.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/plots/plot_hist/histogram_16 - dd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/plots/plot_hist/histogram_17 - yy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/plots/plot_hist/histogram_2 - Bulletin Id.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/plots/plot_hist/histogram_3 - Bulletin KB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/plots/plot_hist/histogram_4 - Severity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/plots/plot_hist/histogram_5 - Impact.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/plots/plot_hist/histogram_6 - Title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/plots/plot_hist/histogram_7 - Affected Product.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/plots/plot_hist/histogram_8 - Component KB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/plots/plot_hist/histogram_9 - Affected Component.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/plots/plot_top_values/top_values_Affected Component.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/plots/plot_top_values/top_values_Affected Product.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/plots/plot_top_values/top_values_Bulletin Id.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/plots/plot_top_values/top_values_Bulletin KB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/plots/plot_top_values/top_values_CVEs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/plots/plot_top_values/top_values_Component KB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/plots/plot_top_values/top_values_Date Posted.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/plots/plot_top_values/top_values_Impact.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/plots/plot_top_values/top_values_Impact2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/plots/plot_top_values/top_values_Reboot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/plots/plot_top_values/top_values_Severity.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/plots/plot_top_values/top_values_Severity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/plots/plot_top_values/top_values_Supersedes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/plots/plot_top_values/top_values_Title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/plots/plot_top_values/top_values_dd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/plots/plot_top_values/top_values_mm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/plots/plot_top_values/top_values_yy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/testData.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/trainData.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/tree - pic_criterion_log_loss train numbers Final graph all datas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/tree - pic_criterion_log_loss train numbers Pre graph less data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/.idea/פרוייקט גמר.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Codes/Bulletin Search (2001 - 2008).xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Codes/Bulletin Search (2008 - 2017).xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Codes/Code for dividing data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Codes/Data Cleaning - Pre processing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Codes/Data Understanding.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Codes/Merge Sheets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Codes/Merged_Bulletin_Data.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/Bulletin Search (2001 - 2008 חיפוש עלונים).xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/Bulletin Search (2008 - 2017 חיפוש עלונים).xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/CVRF Information.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS13-066.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS13-105.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS14-040.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS14-044.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS14-045.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS14-047.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS14-048.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS14-049.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS14-050.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS14-051.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS14-052.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS14-054.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS14-055.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS14-056.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS14-060.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS14-061.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS14-063.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS14-064.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS14-065.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS14-069.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS14-070.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS14-073.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS14-074.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS14-075.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS14-076.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS14-078.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS14-080.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS14-081.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS14-082.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS14-083.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-001.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-002.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-003.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-004.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-005.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-006.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-007.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-008.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-009.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-010.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-011.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-012.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-013.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-014.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-015.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-016.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-017.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-018.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-020.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-021.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-022.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-023.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-024.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-025.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-026.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-027.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-028.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-029.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-030.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-031.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-032.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-033.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-034.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-035.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-036.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-037.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-038.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-039.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-041.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-042.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-043.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-044.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-045.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-046.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-047.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-049.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-050.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-051.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-052.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-054.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-055.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-056.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-057.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-058.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-059.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-060.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-061.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-062.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-063.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-064.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-065.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-067.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-068.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-069.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-070.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-071.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-072.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-073.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-074.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-075.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-076.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-077.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-078.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-079.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-080.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-081.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-082.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-083.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-084.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-085.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-086.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-087.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-088.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-089.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-090.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-091.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-092.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-093.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-094.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-095.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-096.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-097.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-098.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-099.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-101.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-102.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-103.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-104.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-105.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-106.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-107.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-108.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-109.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-110.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-111.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-112.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-113.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-114.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-115.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-116.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-117.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-118.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-119.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-120.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-121.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-122.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-123.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-124.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-125.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-126.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-127.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-128.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-129.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-130.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-131.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-132.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-133.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-134.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS15-135.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-001.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-002.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-003.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-004.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-005.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-006.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-007.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-008.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-009.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-010.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-011.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-012.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-013.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-014.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-015.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-016.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-017.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-018.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-019.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-020.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-021.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-023.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-024.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-025.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-026.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-027.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-028.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-029.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-030.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-031.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-032.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-033.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-034.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-035.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-037.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-038.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-039.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-040.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-041.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-042.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-044.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-045.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-046.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-047.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-048.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-049.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-051.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-052.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-053.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-054.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-055.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-056.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-057.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-058.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-059.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-060.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-061.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-062.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-063.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-065.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-066.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-067.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-068.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-069.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-070.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-071.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-072.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-073.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-074.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-075.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-076.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-077.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-078.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-079.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-080.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-081.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-082.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-084.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-085.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-086.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-087.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-088.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-089.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-090.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-091.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-092.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-094.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-095.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-096.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-097.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-098.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-099.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-101.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-102.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-103.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-104.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-105.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-106.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-107.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-108.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-109.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-110.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-111.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-112.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-113.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-114.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-115.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-116.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-118.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-119.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-120.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-121.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-122.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-123.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-124.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-125.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-126.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-129.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-130.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-131.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-132.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-133.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-134.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-135.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-136.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-137.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-138.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-139.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-140.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-142.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-144.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-145.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-146.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-147.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-148.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-149.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-150.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-151.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-152.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-153.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS16-155.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS17-001.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS17-002.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/MS17-004.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-036.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-037.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-038.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-039.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-040.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-041.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-042.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-043.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-044.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-045.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-046.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-047.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-048.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-049.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-050.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-051.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-052.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-053.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-054.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-055.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-056.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-057.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-058.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-059.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-060.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-061.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-062.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-063.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-064.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-065.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-066.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-067.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-068.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-069.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-070.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-071.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-072.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-073.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-074.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-075.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-076.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-077.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-078.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-079.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-080.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-081.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-082.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms12-083.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-001.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-002.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-003.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-004.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-005.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-006.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-007.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-008.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-009.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-010.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-011.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-012.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-013.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-014.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-015.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-016.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-017.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-018.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-019.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-020.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-021.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-022.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-023.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-024.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-025.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-026.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-027.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-028.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-029.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-030.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-031.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-032.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-033.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-034.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-035.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-036.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-037.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-038.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-039.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-040.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-041.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-042.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-043.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-044.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-045.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-046.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-047.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-048.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-049.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-050.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-051.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-052.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-053.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-054.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-055.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-056.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-057.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-058.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-059.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-060.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-062.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-063.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-064.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-065.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-068.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-069.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-070.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-071.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-072.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-073.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-074.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-075.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-076.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-077.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-078.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-079.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-080.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-081.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-082.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-083.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-084.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-085.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-086.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-087.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-088.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-089.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-090.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-091.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-092.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-093.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-094.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-095.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-096.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-097.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-098.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-099.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-101.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-102.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-103.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-104.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms13-106.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-001.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-002.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-003.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-004.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-005.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-006.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-007.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-008.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-009.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-010.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-011.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-012.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-013.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-014.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-015.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-016.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-017.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-018.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-019.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-020.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-021.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-022.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-023.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-024.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-025.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-026.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-027.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-028.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-029.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-030.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-031.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-032.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-033.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-034.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-035.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-036.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-037.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-038.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-039.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-041.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-042.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-043.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-046.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-053.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-057.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-058.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-059.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-062.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-066.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-067.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-068.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-071.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-072.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-077.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-079.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-084.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms14-085.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms15-019.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms15-040.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms15-048.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms15-053.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/MSRC-CVRF/ms15-066.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/ניתוח הדאטה/ניתוח מאפייני הנתונים.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/Data/ניתוח הדאטה/תיאור הנתונים.rtf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/הפרוייקט/פרוייקט גמר - מדעי הנתונים (דוח הבנת נתונים).docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/הפרוייקט/פרוייקט גמר - מדעי הנתונים (דוח עסקי).docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/הפרוייקט/תכן ויישום פרויקטים - טופס בחירת נושא.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/מראי מקום/Define the organizational structure in Dynamics 365 - Dynamics 365 | Microsoft Learn.webloc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/מראי מקום/Microsoft 2023 Annual Report.webloc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/מראי מקום/Microsoft 365 Defender Research - Microsoft Research.webloc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/מראי מקום/Microsoft Security Bulletin Data.webloc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/מראי מקום/Microsoft's Organizational Structure [Interactive Chart] | Organimi.webloc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/מראי מקום/דוח הגנה דיגיטלית של מיקרוסופט 2023.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/מראי מקום/דוח הגנה דיגיטלית של מיקרוסופט 2024.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/פרוייקט גמר/מראי מקום/קורס Azure - המדריך המלא למערכת ניהול אירועי אבטחת מידע של מיקרוסופט Azure Sentinel.webloc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/p1/bar_plots/AccountObjectId.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/p1/bar_plots/Category.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/p1/bar_plots/CountryCode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/p1/bar_plots/DeviceId.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/p1/bar_plots/EntityType.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/p1/bar_plots/EvidenceRole.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/p1/bar_plots/IncidentGrade.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/p1/bar_plots/IpAddress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/p1/bar_plots/SuspicionLevel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/p1/count_plots/count plot fitcher AccountObjectId.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/p1/count_plots/count plot fitcher Category.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/p1/count_plots/count plot fitcher CountryCode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/p1/count_plots/count plot fitcher DeviceId.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/p1/count_plots/count plot fitcher EntityType.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/p1/count_plots/count plot fitcher EvidenceRole.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/p1/count_plots/count plot fitcher IncidentGrade.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/p1/count_plots/count plot fitcher IpAddress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/p1/count_plots/count plot fitcher LastVerdict.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/p1/count_plots/count plot fitcher SuspicionLevel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/p1/count_plots/pair_plots.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/p1/csv files/GUIDE_Test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/p1/csv files/GUIDE_Train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/p1/csv files/GUIDE_Train_part1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/p1/csv files/GUIDE_Train_part2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/p1/csv files/GUIDE_Train_part3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/p1/df_pedicr.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/p1/final_project.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/p1/help_project.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/p1/hist graph - hist frequncy of Category and ['LastVerdict'].png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/p1/hist graph - hist frequncy of EntityType and ['LastVerdict'].png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/p1/hist graph - hist frequncy of IncidentGrade and ['LastVerdict'].png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/p1/hist_graph/hist graph - hist frequncy of Category and ['LastVerdict'].png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/p1/hist_graph/hist graph - hist frequncy of EntityType and ['LastVerdict'].png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/p1/hist_graph/hist graph - hist frequncy of IncidentGrade and ['LastVerdict'].png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/p1/main_codes_orp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/p1/main_codes_orp.py.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/p1/newCode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/p1/pair_plots/pair_plots.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/p1/pair_plots/pair_plots_regression.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/p1/pic_criterion_log_loss train numbers 2234265.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/p1/pic_criterion_log_loss train numbers 2987951.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/p1/ארכיון.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/project_file/trt_got_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/iman_project/iman_data/Correlation Matrix iman dataset.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/iman_project/iman_data/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/iman_project/iman_data/Pairplot of Numerical Features.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/iman_project/iman_data/Pairplot_of_Numerical_Features.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/iman_project/iman_data/Pairplot_of_Numerical_Features_Colored.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/iman_project/iman_data/data_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/iman_project/iman_data/iman_daniel_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/iman_project/iman_data/make.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/iman_project/iman_data/source/conf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/iman_project/iman_data/source/index.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/iman_seminar_data/Crypto_TimeSeries.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/iman_seminar_data/code_explain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/iman_seminar_data/create plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/iman_seminar_data/data_bitcoin/run_20241228_175030/bitcoin_predictions_20241228_175031.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/iman_seminar_data/data_bitcoin/run_20241228_175030/bitcoin_price_plot_20241228_175031.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/iman_seminar_data/data_bitcoin/run_20241228_175038/bitcoin_predictions_20241228_175039.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/iman_seminar_data/data_bitcoin/run_20241228_175038/bitcoin_price_plot_20241228_175039.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/iman_seminar_data/iman_seminar_data.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/my_seminal_code/plotting\elbow method plots\elbow method.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/my_seminal_code/plotting\elbow method plots\elbow methos 3D.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/my_seminal_code/plotting\heat map of sse matrix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/my_seminal_code/plotting\histograms plots of sse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/my_seminal_code/plotting\k mean plot\k mean models for k = 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/my_seminal_code/plotting\k mean plot\k mean models for k = 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/my_seminal_code/plotting\k mean plot\k mean models for k = 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/my_seminal_code/plotting\k mean plot\k mean models for k = 5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/my_seminal_code/plotting\k mean plot\k mean models for k = 6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/my_seminal_code/plotting\k mean plot\k mean models for k = 7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/my_seminal_code/plotting\k mean plot\k mean models for k = 8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/my_seminal_code/plotting\k mean plot\k mean models for k = 9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/my_seminal_code/seminarcode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/my_seminal_code/עותק של Product Review Large Data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/clustering_graph_k_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/clustering_graph_k_0_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/clustering_graph_k_0_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/clustering_graph_k_0_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/clustering_graph_k_0_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/clustering_graph_k_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/clustering_graph_k_1_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/clustering_graph_k_1_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/clustering_graph_k_1_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/clustering_graph_k_1_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/clustering_graph_k_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/clustering_graph_k_2_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/clustering_graph_k_2_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/clustering_graph_k_2_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/clustering_graph_k_2_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/clustering_graph_k_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/clustering_graph_k_3_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/clustering_graph_k_3_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/clustering_graph_k_3_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/clustering_graph_k_3_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/clustering_graph_k_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/clustering_graph_k_4_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/clustering_graph_k_4_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/clustering_graph_k_4_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/clustering_graph_k_4_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/clustering_graph_k_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/clustering_graph_k_5_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/clustering_graph_k_5_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/clustering_graph_k_5_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/clustering_graph_k_5_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/clustering_graph_k_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/clustering_graph_k_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/clustering_graph_k_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/clustering_graph_k_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/filtered_cluster_0.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/filtered_cluster_0_1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/filtered_cluster_0_2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/filtered_cluster_0_3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/filtered_cluster_0_4.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/filtered_cluster_1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/filtered_cluster_1_1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/filtered_cluster_1_2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/filtered_cluster_1_3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/filtered_cluster_1_4.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/filtered_cluster_2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/filtered_cluster_2_1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/filtered_cluster_2_2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/filtered_cluster_2_3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/filtered_cluster_2_4.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/filtered_cluster_3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/filtered_cluster_3_1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/filtered_cluster_3_2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/filtered_cluster_3_3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/filtered_cluster_3_4.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/filtered_cluster_4.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/filtered_cluster_4_1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/filtered_cluster_4_2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/filtered_cluster_4_3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/filtered_cluster_4_4.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/filtered_cluster_5.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/filtered_cluster_5_1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/filtered_cluster_5_2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/filtered_cluster_5_3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/filtered_cluster_5_4.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/filtered_cluster_6.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/filtered_cluster_7.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/filtered_cluster_8.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/output_data/filtered_cluster_9.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/seminae_other_data/py.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/seminae_other_data/traffic_violations.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/תכניות בפייתון/EscapeRed Game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/תכניות בפייתון/Matrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/תכניות בפייתון/calcFormulaForPrime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/תכניות בפייתון/calculator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/תכניות בפייתון/checkSumDigitForPrime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/תכניות בפייתון/clickGame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/תכניות בפייתון/computerMessage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/תכניות בפייתון/determinant.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/תכניות בפייתון/fibbonuchi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/תכניות בפייתון/find_sum/amazing question.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/תכניות בפייתון/find_sum/sums 5.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/תכניות בפייתון/find_sum/sums 7.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/תכניות בפייתון/for_may.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/תכניות בפייתון/formulist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/תכניות בפייתון/inf_rest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/תכניות בפייתון/luckynum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/תכניות בפייתון/newPrime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/תכניות בפייתון/numpyXYZ.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/תכניות בפייתון/py_restsNum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/תכניות בפייתון/questionX.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/תכניות בפייתון/statistic_lerning_Doc_HM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/תכניות בפייתון/teylorSeries.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/תכניות בפייתון/time.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/תכניות בפייתון/whatsapp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/תכניות בפייתון/אני וסמאח.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/תכניות בפייתון/דטרמיננטה מרשימה.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/תכניות בפייתון/הפיכה מסדרה לםונקציה.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/תכניות בפייתון/הפיכה מסדרה לפונקציה מקורית.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/תכניות בפייתון/חישובים סטטיסטיקה.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/תכניות בפייתון/ליטלווד.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/תכניות בפייתון/מצייר פונקציה בנקודות נתונות.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/תכניות בפייתון/משחק.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/תכניות בפייתון/פותר מערכת משוואות.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/תכניות בפייתון/פסקל.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/some_running/תכניות בפייתון/צורת מטריצה לה דטרמיננטה מקבימלית.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../how_use_doc_file" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_project_final/logit/AAA_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Advenced_python_project_/python_project_final/logit/AAA_main_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_project_final/logit/Course.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Advenced_python_project_/python_project_final/logit/Course.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_project_final/logit/GeneralEmployee_or.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Advenced_python_project_/python_project_final/logit/GeneralEmployee_or.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_project_final/logit/Manager_or.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_project_final/logit/Parent.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Advenced_python_project_/python_project_final/logit/Parent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_project_final/logit/Payment.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Advenced_python_project_/python_project_final/logit/Payment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_project_final/logit/Person.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Advenced_python_project_/python_project_final/logit/Person.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_project_final/logit/Queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Advenced_python_project_/python_project_final/logit/Queue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_project_final/logit/School_system.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonProject/project_file/new_project_original/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_project_final/logit/Student.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Advenced_python_project_/python_project_final/logit/Student.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_project_final/logit/Task.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Advenced_python_project_/python_project_final/logit/Task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_project_final/logit/Teacher.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Advenced_python_project_/python_project_final/logit/Teacher.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2sF7mGkh0LLeSRMDJtkikVvx1bG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "sahar",
+    "last_opened_file_path": "/Users/shryqb/PycharmProjects/AdvancedPythonProject"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-495700d161d3-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.22562.220" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="efa0c617-caaf-40c1-836b-a0ad87abd178" name="Changes" comment="" />
+      <created>1738039625771</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738039625771</updated>
+    </task>
+    <servers />
+  </component>
+</project>
