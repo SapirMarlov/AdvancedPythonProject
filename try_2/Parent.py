@@ -46,7 +46,9 @@ class Parent(Person):
         self._payment = value
 
     ################################################################################################################################
-
+    def login(self):
+        print('hello , login from parent')
+        pass
 
     def register_child_to_course_if_course_not_full(self,course:Course,courseList,queueList , childName , child_id,age,phone_number,state):
         '''

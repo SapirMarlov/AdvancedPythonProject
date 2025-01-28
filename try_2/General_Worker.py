@@ -41,6 +41,9 @@ class General_Worker(Employee):
                 "tasks_list must be a dictionary where keys are strings and values are instances of TaskStatus.")
 
     ################################################################################################################################
+    def login(self):
+        print('hello , login from general worker')
+        pass
     def change_task_status_of_task(self,task, new_task_status):
         if task not in self._tasks_list:
             print(f"Task '{task}' does not exist in the tasks list.")

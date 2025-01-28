@@ -54,7 +54,8 @@ class Teacher(Employee):
             raise ValueError("student_list must be a list.")
 
     ################################################################################################################################
-
+    def login(self):
+        pass
     def show_student_in_course(self):
         for i in self._student_list:
             print(i.__str__())

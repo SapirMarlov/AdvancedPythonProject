@@ -1,11 +1,15 @@
+from sphinx.cmd.build import make_main
 from sqlalchemy import false
 
+from Payment import Payment
 from General_Worker import General_Worker
 from Teacher import Teacher
 from Queue_wait import Queue_wait
 from Employee import Employee, Seniority
 from Person import State
 from Course import Course
+from Student import Students , Registered_Status
+from Parent import Parent
 class Manager(Employee):
     def __init__(self, name, m_id, age, phone_number, status: State, salary, seniority: Seniority, worker_list: list, teacher_list: list):
         """
@@ -59,6 +63,7 @@ class Manager(Employee):
             raise ValueError("teacher_list must be a list.")
 
     ################################################################################################################################
+
     def create_report_income_outcome(self, year, income, outcome):
         """
         Creates a financial report for a given year.
@@ -235,4 +240,121 @@ class Manager(Employee):
         workers_str = ', '.join(str(worker) for worker in self.worker_list)  # Convert list of workers to string
         teachers_str = ', '.join(str(teacher) for teacher in self.teacher_list)  # Convert list of teachers to string
         return f"{base_str}, Workers: [{workers_str}], Teachers: [{teachers_str}]"
+
+
+
+################################################################################################################################
+################################################################################################################################
+
+    def login(self, teacher_list, student_list, course_list, general_worker_list, queue_list, parent_list, task_list):
+        while True:
+            print("\n")
+            print('='*188)
+            print("\n--- * Manager Menu * ---")
+            print("1. Create Teacher")
+            print("2. Create Student")
+            print("3. Create Parent")
+            print("4. Create General Employee")
+            print("5. Create Course")
+            print("6. Assign Teacher to Course")
+            print("7. Manage Queues")
+            print("0. Exit")
+            choice = input("Enter your choice: ")
+
+            #creat teacher
+            if choice == '1':
+                print(">>> Creating a new Teacher...")
+                name = input("Enter teacher's name: ")
+                t_id = int(input("Enter teacher's ID: "))
+                age = int(input("Enter teacher's age: "))
+                phone_number = input("Enter teacher's phone number: ")
+                status = State.state_teacher
+                salary = float(input("Enter teacher's salary: "))
+                seniority = 0
+                while seniority not in ['1','2','3','4','5']:
+                    seniority = input("Enter teacher's seniority level (junior:1 senior:2 veteran:3 expert:4 Master:5): ")
+                if seniority=='1' :    seniority=Seniority.JUNIOR
+                elif seniority=='2' :  seniority=Seniority.SENIOR
+                elif seniority == '3': seniority = Seniority.VETERAN
+                elif seniority == '4': seniority = Seniority.EXPERT
+                elif seniority == '5': seniority = Seniority.MASTER
+                new_teacher = Teacher(name, t_id, age, phone_number, status, salary, seniority, [], [])
+                self.create_teacher(new_teacher, teacher_list)
+
+            #create student
+            elif choice == '2':
+                print(">>> Creating a new Student...")
+                name = input("Enter student's name: ")
+                s_id = int(input("Enter student's ID: "))
+                age = int(input("Enter student's age: "))
+                phone_number = input("Enter student's phone number: ")
+                status = State.state_student
+                new_student = Students(name, s_id, age, phone_number, status, {},Registered_Status.REGISTERED)
+                self.create_student(new_student, student_list)
+                print(student_list)
+
+            #create parent
+            elif choice == '3':
+                print("Creating a new Parent...")
+                name = input("Enter parent's name: ")
+                p_id = int(input("Enter parent's ID: "))
+                age = int(input("Enter parent's age: "))
+                phone_number = input("Enter parent's phone number: ")
+                status = State.state_parent
+                child_name = input("Enter your child name with , between : ")
+                child_name = child_name.split(",")
+                income = float(input("Enter your income: "))
+                outcome = float(input("Enter a outcome of the pay:"))
+                payment = Payment(income, outcome)
+                new_parent = Parent(name, p_id, age, phone_number, status,payment,child_name)
+                self.create_parent(new_parent, parent_list)
+                print(parent_list)
+
+            elif choice == '4':
+                print("Creating a new General Employee...")
+                name = input("Enter general employee's name: ")
+                ge_id = int(input("Enter general employee's ID: "))
+                age = int(input("Enter general employee's age: "))
+                phone_number = input("Enter general employee's phone number: ")
+                status = State.state_general_worker
+                salary = float(input("Enter general employee's salary: "))
+                new_general_employee = General_Worker(name, ge_id, age, phone_number, status, salary)
+                self.create_general_employee(new_general_employee, general_worker_list)
+
+            elif choice == '5':
+                print("Creating a new Course...")
+                name = input("Enter course name: ")
+                c_id = int(input("Enter course ID: "))
+                teacher_name = input("Enter teacher's name for the course: ")
+                teacher = next((t for t in teacher_list if t.name == teacher_name), None)
+                if not teacher:
+                    print(f"Teacher {teacher_name} not found in teacher list.")
+                    continue
+                new_course = Course(name, c_id, teacher, [])
+                self.create_course(new_course, course_list)
+
+            elif choice == '6':
+                print("Assigning a Teacher to a Course...")
+                teacher_name = input("Enter teacher's name: ")
+                teacher = next((t for t in teacher_list if t.name == teacher_name), None)
+                if not teacher:
+                    print(f"Teacher {teacher_name} not found in teacher list.")
+                    continue
+                course_name = input("Enter course name: ")
+                course = next((c for c in course_list if c.name == course_name), None)
+                if not course:
+                    print(f"Course {course_name} not found in course list.")
+                    continue
+                self.assign_teacher_to_course(teacher, course)
+
+            elif choice == '7':
+                print("Managing Queues...")
+                self.manage_queue(queue_list)
+
+            elif choice == '0':
+                print("Exiting Manager Menu...")
+                break
+
+            else:
+                print("Invalid choice. Please try again.")
 

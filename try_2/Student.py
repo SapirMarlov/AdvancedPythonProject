@@ -59,6 +59,9 @@ class Students(Person):
             raise ValueError("registered must be an instance of Registered_Status.")
 
     ################################################################################################################################
+    def login(self):
+        print('hello , login from student')
+        pass
 
     def show_grade(self,list_courses):
         #print(f'grade of {self.name} [course_id,grade] - {self._grade_course.__str__()}')

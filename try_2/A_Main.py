@@ -12,12 +12,19 @@ from Queue_wait import Queue_wait
 from Person import Person , State
 
 from AdvancedPythonProject.Sql_Con import sql
+sql_ = sql.sql()
+sql_.create_db("university_dataBase_data")
+sql_.db_name = "university_dataBase_data"
 
+def add_data_to_sql(new_dataFrame_table_name , current_df_of_table_name):
 
-def add_data_to_sql():
-    sql_ = sql.sql()
-    sql_.create_db("university_dataBase_data")
-    sql_.db_name = "university_dataBase_data"
+    df_students = pd.DataFrame([student.__dict__ for student in list_students])
+    df_courses = pd.DataFrame([course.__dict__ for course in list_courses])
+    df_teachers = pd.DataFrame([teacher.__dict__ for teacher in list_teachers])
+    df_general_employees = pd.DataFrame([worker.__dict__ for worker in list_general_employees])
+    df_managers = pd.DataFrame([manager.__dict__ for manager in list_managers])
+    df_parents = pd.DataFrame([parent.__dict__ for parent in list_parents])
+    df_queues = pd.DataFrame([queue.__dict__ for queue in list_queues])
 
     # חשוב: אסור שיהיה רווח בשם של הטבלאות !!!!!!!!!
     dictionary_all = {
@@ -45,11 +52,11 @@ def add_data_to_sql():
     for i, df_item in enumerate(all_df_in_school):
         table_name = tableName[i]
         sql_.add_df_to_table(table_name, df_item)
-
+    sql_.add_df_to_table(new_dataFrame_table_name,current_df_of_table_name)
 
 
 import pandas as pd
-stu_state = State.st1
+stu_state = State.state_student
 Students_miki = Students('Miki',1,19,"0526573644" , stu_state, {1:88,2:88},Registered_Status.UNREGISTERED )
 Students_ron = Students('Ron', 2, 21, "0526758492", stu_state, {3:92, 1:85}, Registered_Status.REGISTERED)
 Students_noa = Students('Noa', 3, 20, "0526583945", stu_state, {1:78, 3:91}, Registered_Status.UNREGISTERED)
@@ -75,7 +82,7 @@ queue_english = Queue_wait([Students_or_in_queue,Students_ori_in_queue,Students_
 queue_economics = Queue_wait([Students_or_in_queue,Students_ori_in_queue],course_economics,id=99993)
 queue_law = Queue_wait([Students_or_in_queue,Students_avi,Students_miki],course_law,id=99994)
 
-teacher_state = State.st5
+teacher_state = State.state_teacher
 teacher_ben = Teacher('Ben',41,24,"0524534566",teacher_state,4500,Seniority.MASTER,course_list=[course_bio,course_english],student_list=[Students_noa , Students_miki])
 teacher_sara = Teacher('Sara', 42, 32, "0524534568", teacher_state, 5200, Seniority.EXPERT, course_list=[course_math], student_list=[Students_ron, Students_avi])
 teacher_lior = Teacher('Lior', 43, 38, "0524534569", teacher_state, 4800, Seniority.SENIOR, course_list=[course_english,course_math], student_list=[Students_ron, Students_miki])
@@ -94,21 +101,21 @@ task_present = Task(109, 'present report', TaskStatus.EXECUTION)
 task_update = Task(110, 'update database', TaskStatus.COMPLETE)
 
 
-general_worker_state = State.st2
+general_worker_state = State.state_general_worker
 generalEmployee_don = General_Worker('Don',11,40,"0540022563",general_worker_state,8000, seniority=Seniority.SENIOR , tasks_list=[task_research , task_update]  )
 generalEmployee_ron = General_Worker('Ron', 12, 35, "0540022564",general_worker_state, 7500, seniority=Seniority.JUNIOR, tasks_list=[task_present,task_file])
 generalEmployee_noa = General_Worker('Noa', 13, 29, "0540022565", general_worker_state, 9000, seniority=Seniority.MASTER, tasks_list=[task_train,task_update])
 generalEmployee_avi = General_Worker('Avi', 14, 45, "0540022566", general_worker_state, 8500, seniority=Seniority.SENIOR, tasks_list=[task_clean])
 generalEmployee_maya = General_Worker('Maya', 15, 38, "0540022567", general_worker_state, 7700, seniority=Seniority.EXPERT, tasks_list=[task_report,task_train])
 
-manager_state = State.st3
+manager_state = State.state_manager
 manager_avi = Manager('Avi',21,55,"0501191822",manager_state,16000,Seniority.SENIOR,worker_list=[generalEmployee_avi,generalEmployee_maya,generalEmployee_don,generalEmployee_ron,generalEmployee_noa],teacher_list=[teacher_ben,teacher_sara,teacher_lior,teacher_yaron])
 
 
 payment1 = Payment(12000,3000)
 payment2 = Payment(25000,6000)
 
-parent_state = State.st4
+parent_state = State.state_parent
 Parent_mimi = Parent('Mimi',31,34,"0554256577",parent_state,payment=payment1,childrenList=['emily','moshe'])
 Parent_ronit = Parent('Ronit', 40, 42, "0554786543", parent_state,payment=payment2, childrenList=['david', 'sara'])
 
@@ -121,7 +128,7 @@ list_general_employees = [generalEmployee_don, generalEmployee_ron, generalEmplo
 list_managers = [manager_avi]
 list_parents = [Parent_mimi, Parent_ronit]
 list_queues = [queue_bio, queue_law, queue_math, queue_english, queue_economics]
-
+'''
 # יצירת DataFrame מכל רשימה על ידי המרת האובייקטים למילונים
 df_students = pd.DataFrame([student.__dict__ for student in list_students])
 df_courses = pd.DataFrame([course.__dict__ for course in list_courses])
@@ -133,7 +140,7 @@ df_queues = pd.DataFrame([queue.__dict__ for queue in list_queues])
 
 
 
-'''
+
 sql_ = sql.sql()
 sql_.create_db("university_dataBase_data")
 sql_.db_name = "university_dataBase_data"
@@ -165,8 +172,8 @@ tableName =        ['Student' , 'Teacher', 'Course', 'general_worker' , 'Manager
 for i, df_item in enumerate(all_df_in_school):
     table_name = tableName[i]
     sql_.add_df_to_table(table_name, df_item)
-'''
 
+'''
 
 student_add_meni = Students('Meni',8,19 , "0524565766",stu_state,{1:88,3:99,5:94},Registered_Status.REGISTERED)
 student_add_toni = Students('Toni',9,19, "0524019726",stu_state,{1:70,3:88,5:100},Registered_Status.REGISTERED)
@@ -233,7 +240,8 @@ print('-'*188)
 print('general employee method : ')
 generalEmployee_don.change_task_status_of_task(task_research,new_task_status=TaskStatus.WAIT)
 
-add_data_
+add_data_to_sql('Student',df_students_add)
+add_data_to_sql('Course',df_course_add)
 
 
 

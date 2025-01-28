@@ -6,12 +6,11 @@ class State(Enum):
     """
     Represents a state for the Person object.
     """
-    st1 = 'st1'
-    st2 = 'st2'
-    st3 = 'st3'
-    st4 = 'st4'
-    st5 = 'st5'
-    st6 = 'st6'
+    state_student = 'Student'
+    state_teacher = 'Teacher'
+    state_parent = 'Parent'
+    state_general_worker = 'General Worker'
+    state_manager = 'Manager'
 
 
 
