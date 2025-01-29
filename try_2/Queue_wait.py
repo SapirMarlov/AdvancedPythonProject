@@ -1,4 +1,4 @@
-from Course import Course
+
 
 class Queue_wait():
     def __init__(self, queue: list, course_of_queue, id: int):
