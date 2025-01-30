@@ -8,7 +8,7 @@ import pandas as pd
 
 def main():
     # יצירת אובייקטים עבור כל מערכת
-    analyzer_obj = Analyzer()
+    analyzer_obj = analyzer.Analyzer()
     courses_obj = course.Course()
     students_obj = students.Students()
     waitlist_obj = waitlist.Waitlist()
