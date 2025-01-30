@@ -67,8 +67,6 @@ class sql:
         else:
             print(f'~~~~~def_col must be a string like: "id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(100), age INT"')
 
-    import pymysql
-
 
     def add_value_to_table(self, table_name, df_vals, col_names):
         """הוסף רשומה חדשה לטבלה, מתאימה גם עבור DataFrame"""
