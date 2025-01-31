@@ -140,7 +140,7 @@ class Analyzer:
             # בדיקת הקורס המועדף
             if preferred_course in course_characteristics:
                 min_age = course_characteristics[preferred_course]
-                if age < min_age:
+                if age < min_age :
                     rejection_reason.append("גיל נמוך מדי לקורס המועדף")
                 elif preferred_course not in not_full_courses:
                     rejection_reason.append("אין מקום בקורס המועדף")
@@ -149,9 +149,10 @@ class Analyzer:
                 elif not self.is_teacher_qualified_for_course(preferred_course):
                     rejection_reason.append("מורה לא מוסמך לקורס המועדף")
                 else:
-                    # אם כל התנאים מתקיימים, הוסף את הסטודנט לקורס המועדף
-                    added_students[student_id] = [student_name, preferred_course]
-                    assigned = True
+                    if age >= min_age :
+                        # אם כל התנאים מתקיימים, הוסף את הסטודנט לקורס המועדף
+                        added_students[student_id] = [student_name, preferred_course]
+                        assigned = True
 
             # אם לא הוקצה קורס מועדף, חיפוש קורס חלופי
             if not assigned:
@@ -329,6 +330,7 @@ if __name__ == "__main__":
             elif choice == "5":
                 print("\n--- שמירת נתונים לקובץ Excel ---")
                 try:
+                    added_students, not_added_students = analyzer.add_student_to_course()
                     # ודא שהמשתנים לא ריקים לפני השמירה
                     if not added_students or not not_added_students:
                         print("עליך להריץ קודם את האפשרות להוספת סטודנטים לקורסים (אפשרות 4).")
